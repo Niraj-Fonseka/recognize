@@ -1,0 +1,16 @@
+syntax = "proto3";
+package proto;
+
+
+message DetectorRequest{}
+
+message DetectorResponse{
+    int32 x = 1;
+    int32 y = 2;
+    int32 w = 3;
+    int32 h = 4;
+}
+
+service Detector {
+    rpc Detect(DetectorRequest) returns (stream DetectorResponse){}
+}
