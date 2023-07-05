@@ -1,6 +1,6 @@
 enum34==1.1.6
 futures==3.2.0
-grpcio==1.21.1
+grpcio==1.53.0
 grpcio-tools==1.21.1
 numpy==1.22.0
 opencv-python==4.2.0.32
